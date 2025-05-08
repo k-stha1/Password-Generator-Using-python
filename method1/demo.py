@@ -1,6 +1,6 @@
 import string
 import random
-import my_module
+import method1.my_module as my_module
 
 symbols=['@','#','$','&','!','^','*','~','+']
 alphabet_list = list(string.ascii_letters)

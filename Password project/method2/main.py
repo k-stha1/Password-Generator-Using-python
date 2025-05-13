@@ -9,7 +9,7 @@ data=symbols.union(alphabet_list,numbers)
 
 
 value=""
-num=int(input("Chose the length of your password between 8 to 16 characters: "))
+num= int(input("Chose the length of your password between 8 to 16 characters: "))
 
 if num>=8 and num<=16:
     for i in range (num):

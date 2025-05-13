@@ -1,6 +1,8 @@
 import string
 import random
-import method1.my_module as my_module
+import sys
+sys.path.append("D:/Python/method1/")
+import my_module
 
 symbols=['@','#','$','&','!','^','*','~','+']
 alphabet_list = list(string.ascii_letters)
